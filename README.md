@@ -18,3 +18,14 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.<br/>
 Docker: Containerization tool for consistent development and deployment environments.<br/>
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.<br/>
+
+Team Roles and Responsibilities<br/>
+Business analyst (BA): A business analyst dives deep into a customer’s workflows and analyzes stakeholder feedback to help a client formulate what their wants look like and align a customer’s vision with what a development team is producing. They translate an abstract product idea into a set of tangible requirements. <br/>
+Product owner (PO): Holds responsibility for a product vision and evolution and Makes sure the final product meets customer requirements.<br>
+Project manager (PM): Makes sure a product or its part is delivered on time and within budget and Manages and motivates the software development team.<br>
+UI/UX designer: Transforms a product vision into user-friendly designs and Creates user journeys for the best user experience and highest conversion rates.<br/>
+Software architect: Designs a high-level software architecture,Selects appropriate tools and platforms to implement the product vision and Sets up code quality standards and performs code reviews.<br/>
+Software developer: Engineers and stabilizes the product and solves any technical problems emerging during the development lifecycle.<br>
+Quality assurance (QA) engineer: Makes sure an application performs according to requirements and Spots functional and non-functional defects<br>
+Test automation engineer: Designs a test automation ecosystem and Writes and maintains test scripts for automated testing.<br/>
+DevOps engineer: Facilitates cooperation between development and operations teams and Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery.<br/>
