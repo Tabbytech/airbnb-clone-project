@@ -147,3 +147,22 @@ Implementation: Use hashing algorithms like bcrypt or Argon2. <br/>
 CSRF & CORS Protection
 Prevents: Cross-Site Request Forgery and unauthorized access from different domains.
 Implementation: Use CSRF tokens and properly configured CORS policies. <br/>
+
+CI/CD Pipeline<br>
+CI/CD pipelines—short for Continuous Integration and Continuous Deployment/Delivery—are automated workflows that allow developers to test, build, and release software quickly and safely.
+Continuous Integration (CI): Automatically tests and merges code every time a developer pushes to the repository. This keeps the codebase stable and reduces integration bugs.
+Continuous Deployment/Delivery (CD): Automatically deploys your app (or makes it ready for deployment) after it passes all tests, ensuring fast and consistent delivery to users.<br/>
+
+Importance in Project<br>
+Improves code quality: Every code update is tested automatically, catching bugs early.<br>
+Boosts team productivity: Automation removes manual steps, speeding up development.<br>
+Ensures reliability: Frequent, smaller updates are easier to test and less likely to break your app.<br>
+Supports security and rollback: Easy to audit and roll back if something goes wrong—great for sensitive components like authentication or payments.<br>
+
+Tools You Can Use.<br/>
+GitHub Actions: Automate tests, builds, and deployments right from your GitHub repo.<br>
+Docker: Package your app in containers to ensure consistency across environments.<br>
+Jenkins: Popular for building custom pipelines; very powerful with plugins<br>
+Travis CI / CircleCI: Hosted CI platforms that integrate well with GitHub.<br>
+Heroku/GitLab CI/CD: Simple setups for smaller projects or solo developers.<br>
+
