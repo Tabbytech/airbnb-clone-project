@@ -120,4 +120,30 @@ Endpoints: /reviews/, /reviews/{review_id}/
 Features: Post and manage reviews for properties.
 7. Database Optimizations
 Indexing: Implement indexes for fast retrieval of frequently accessed data.
-Caching: Use caching strategies to reduce database load and improve performance.
+Caching: Use caching strategies to reduce database load and improve performance.<br/>
+
+API Security <br/>
+Authentication 
+What it does: Verifies the identity of users before granting access.
+Implementation: Use token-based methods like JWT (JSON Web Token) or OAuth 2.0. <br/>
+
+Authorization
+ Controls what authenticated users are allowed to do (e.g., only a property owner can update their listing).
+ Implementation: Role-based access control (RBAC) using roles like host and guest.
+Input Validation & Sanitization <br/>
+ Prevents: SQL Injection, XSS (Cross-Site Scripting).
+ Implementation: Use parameterized queries and escape inputs. <br/>
+ 
+Rate Limiting
+Prevents: Abuse through brute-force attacks or overwhelming the server.
+Implementation: Limit number of requests per IP per minute. <br/>
+
+HTTPS/SSL Encryption
+ Protects Data in transit from man-in-the-middle attacks.
+ Implementation: Enforce HTTPS using SSL certificates. <br/>
+Secure Password Storage
+What it does: Protects user credentials if the database is breached.
+Implementation: Use hashing algorithms like bcrypt or Argon2. <br/>
+CSRF & CORS Protection
+Prevents: Cross-Site Request Forgery and unauthorized access from different domains.
+Implementation: Use CSRF tokens and properly configured CORS policies. <br/>
